@@ -23,7 +23,7 @@ class MainContainer extends Component {
       <div className="main-container">
         <div className="demo-big-content">
           <Layout>
-              <Header title="Title" scroll>
+              <Header className="header-gradient" title="Title" scroll>
                   <Navigation>
                       <Link to="/resume">Resume</Link>
                       <Link to="/about">About Me</Link>
